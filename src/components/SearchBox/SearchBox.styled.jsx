@@ -36,7 +36,6 @@ export const Button = styled.button`
   width: 36px;
   height: 37px;
   border: 0;
-  // opacity: 0.5;
   transition: var(--transition);
   cursor: pointer;
   outline: none;

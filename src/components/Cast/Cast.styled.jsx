@@ -51,7 +51,6 @@ export const Name = styled.p`
 `;
 
 export const Role = styled.p`
-  // padding-top: 12px;
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 12px;
@@ -59,7 +58,6 @@ export const Role = styled.p`
 `;
 
 export const Info = styled.p`
-  // height: 36px;
   font-weight: 500;
   font-size: 14px;
   padding-top: 12px;

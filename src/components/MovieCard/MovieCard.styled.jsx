@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 export const Wrap = styled.div`
   display: flex;
   gap: 20px;
-  // justify-content: space-between;
-  // align-items: center;
   padding-bottom: 26px;
   border-bottom: 1px solid black;
 `;
@@ -46,7 +44,6 @@ export const AddInfo = styled.div`
     margin-top: 10px;
     display: flex;
     gap: 15px;
-
     justify-content: center;
     align-items: center;
   }
@@ -57,7 +54,7 @@ export const AddLink = styled(Link)`
   display: block;
   margin-bottom: 15px;
   outline: 1px solid var(--accent-color);
-  // background-color: var(--accent-color);
+
   border-radius: 5px;
   width: 60px;
   padding: 4px;
@@ -72,6 +69,5 @@ export const AddLink = styled(Link)`
   &:focus {
     transform: scale(1.05);
     background-color: var(--accent-color);
-    // color: #ffffff;
   }
 `;
